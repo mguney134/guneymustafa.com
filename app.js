@@ -1,8 +1,8 @@
-const https = require("https");
+const http = require("http");
 
-const PORT = 3000;
+const PORT = 3020;
 
-const server = https.createServer(function (req, res) {
+const server = http.createServer(function (req, res) {
     res.write("Hello, My name Mustafa Guney. I am Full Stack Developer! This is my blog page.");
     res.end();
 });
